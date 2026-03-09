@@ -1,0 +1,1 @@
+This project analyzes the effectiveness of two different web design versions (Group A and Group B) using an A/B testing framework with chi-squared analysis. The goal of the experiment is to determine whether the new design improves user conversion rates compared to the existing version.
