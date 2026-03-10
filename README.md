@@ -9,18 +9,20 @@ Two versions of the page are tested:
 - **Design B (Treatment Group):** New webpage design
 
 Users are randomly assigned to one of the two versions.
-The goal of this project is to determine whether the new landing page should replace the old one.
+The goal of this project is to determine whether Design B should replace Design A.
 
-Dataset:
+Dataset: User ID	Group	Page Views	Time Spent	Conversion	Device	Location
 
 The dataset contains information about user interactions with the landing pages.
 | Column       | Description                                  |
 | ------------ | -------------------------------------------- |
 | user_id      | Unique identifier for each user              |
-| timestamp    | Time of user visit                           |
+| time spend   | Time of user visit                           |
 | group        | Control or treatment group                   |
-| landing_page | Page shown to the user                       |
-| converted    | Whether the user converted (1 = Yes, 0 = No) |
+| Page Víews   | Page shown to the user                       |
+| Conversion   | Whether the user converted (1 = Yes, 0 = No) |
+| Device       | What the user's device use                   |
+| Location     | Where the user's from                        |
 
 Results:
 
