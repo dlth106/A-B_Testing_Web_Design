@@ -21,7 +21,7 @@ The dataset contains information about user interactions with the landing pages.
 | group        | Control or treatment group                   |
 | Page Víews   | Page shown to the user                       |
 | Conversion   | Whether the user converted (1 = Yes, 0 = No) |
-| Device       | What the user's device use                   |
+| Device       | What the user's device                       |
 | Location     | Where the user's from                        |
 
 Results:
