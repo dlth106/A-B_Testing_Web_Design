@@ -4,8 +4,8 @@ Problem Statement:
 A company redesigned its website landing page and wants to know whether the new design leads to a higher conversion rate.
 Two versions of the page are tested:
 
-- Control group: Old landing page
-- Treatment group: New landing page
+- **Design A (Control Group):** Original webpage design
+- **Design B (Treatment Group):** New webpage design
 
 Users are randomly assigned to one of the two versions.
 The goal of this project is to determine whether the new landing page should replace the old one.
@@ -21,11 +21,9 @@ The dataset contains information about user interactions with the landing pages.
 | converted    | Whether the user converted (1 = Yes, 0 = No) |
 
 Results:
-The analysis shows that the difference in conversion rates between the new and old landing page is not statistically significant.
-Therefore, there is insufficient evidence to conclude that the new page improves conversion.
+The A/B test results show a **statistically significant difference** in purchase conversion rates between the two designs.
+Design B achieves a **higher conversion rate** compared to Design A, indicating that the new design positively influences user purchase behavior.
 
 Conclusion:
-Based on the statistical test results:
-The new landing page does not significantly outperform the old version.
-The company should not replace the existing landing page based on the current experiment.
-Further experimentation or design improvements may be needed before implementing the new page.
+Based on the statistical analysis, Design B significantly improves the purchase conversion rate compared to Design A.  
+Therefore, the new design can be considered more effective and is recommended for implementation.
